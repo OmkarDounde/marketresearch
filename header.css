@@ -1,0 +1,85 @@
+
+#mainbox{
+    /* height: 400px; */
+    width: 100%;
+    border: 2px solid rgb(60, 255, 0);
+    display: flex;
+    background-image: linear-gradient( 150deg, #025b8b 30%, rgb(224, 238, 251) 30%);
+}
+
+#left{
+    /* height: 150px; */
+    width: 10%;
+    /* border: 2px solid rgb(60, 255, 0); */
+    float: left;
+}
+#right{
+    /* height: 300px; */
+    width:70%;
+    /* border: 2px solid rgb(60, 255, 0); */
+    float: left;
+    margin-left: 20%;
+}
+#topbar{
+    /* height: 100px; */
+    width:100%;
+    /* border: 2px solid rgb(34, 0, 255); */
+    float: left;
+    /* margin-top: 2%; */
+    
+}
+#contactus{
+    margin-left: 9%;
+}
+#botbar{
+    /* height: 100px; */
+    width:100%;
+    /* border: 2px solid rgb(0, 0, 0); */
+    float: left;
+    /* margin-top: 5%; */
+}
+#home{
+    /* height: 30px; */
+    /* width: 10%; */
+    margin-left: 2.5%;
+    /* border: 2px solid rgb(0, 0, 0); */
+    float: left;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1%;
+}
+#home:hover {
+    background-color: rgb(249, 4, 4);
+    color: black;
+}
+#regi{
+    /* height: 30px; */
+    width: 10%;
+    margin-left: 25%;
+    /* border: 2px solid rgb(0, 0, 0); */
+    float: left;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#regi:hover {
+    background-color: rgb(249, 4, 4);
+    color: black;
+}
+#login{
+    margin-top: 1%;
+    /* height: 30px; */
+    width: 10%;
+    margin-left: 2.5%;
+    /* border: 2px solid rgb(0, 0, 0); */
+    float: left;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#login:hover {
+    background-color: rgb(249, 4, 4);
+    color: black;
+}
