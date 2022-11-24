@@ -58,7 +58,7 @@ body {
     margin-top: 1%;
 }
 #home:hover {
-    background-color: rgb(249, 4, 4);
+    background-color: #301781;
     color: black;
 }
 #regi{
@@ -73,7 +73,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #regi:hover {
-    background-color: rgb(249, 4, 4);
+    background-color: #301781;
     color: black;
 }
 #login{
@@ -88,7 +88,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #login:hover {
-    background-color: rgb(249, 4, 4);
+    background-color: #301781;
     color: black;
 }
 
