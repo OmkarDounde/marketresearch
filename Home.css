@@ -153,12 +153,46 @@ user agent stylesheet
 section {
     display: block;
 }
+
 #category{
     height: 500px;
     width: 100%;
-    background-color: rgb(28, 13, 235);
+    background-color: rgb(244, 244, 244);
     /* border: 2px solid rgb(0, 0, 0); */
     margin-top: 1%;
+}
+.cate{
+    height: 200px;
+    width: 350px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    float: left;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    position: relative;
+    box-shadow:10px 10px 10px 10px #f7f7f7;
+}
+.cate > img{
+    height: 200px;
+    width: 350px;
+}
+.incat{
+    height: 60px;
+    width: 349px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    margin-top: 40%;
+    position: absolute; /* Position the background text */
+    bottom: 0%; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+    text-align: center;
+}
+.incat:hover {
+    background-color: rgba(4, 12, 249, 0.585);
+    color: black;
+    transform: scale(1.1);
 }
 #services{
     height: 400px;
